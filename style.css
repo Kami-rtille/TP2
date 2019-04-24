@@ -3,11 +3,15 @@
 	margin: 0 30px;
 	background: #fff;
 }
+*{
+    font-family: monospace;
+}
 
 #header
 {
-	background: #ccc;
 	padding: 20px;
+    text-align:center;
+    text-transform:uppercase;
 }
 
 #header h1 { margin: 0; }
@@ -48,21 +52,16 @@
 	clear: left;
 	padding: 20px;
 	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
-	-webkit-background-clip: padding-box;
+    background-color : #EDC1AE;
 	background-clip: padding-box;
 	opacity: 0.83;
+    color:white;
 }
 
 #edito h2
 {
-	color: #000;
+	color: white;
+    text-transform: uppercase;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -73,16 +72,15 @@
 	width: 40%;
 	padding: 20px;
 	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
-	-webkit-background-clip: padding-box;
+	background-color : #EDC1AE;
 	background-clip: padding-box;
 	opacity: 0.83;
+    color:white;
+    
+}
+
+#news a {
+    color : ghostwhite;
 }
 
 #footer
@@ -92,4 +90,5 @@
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+    background-color: #acacac;
 }
